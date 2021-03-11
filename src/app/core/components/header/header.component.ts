@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
     </div>
 
     <!-- menu -->
-    <div class='navbar-menu'>
+    <div class='navbar-menu is-active'>
       <div class='navbar-end'>
         <a class='navbar-item' routerLink='/'>Home</a>
         <a class='navbar-item' routerLink='/contact'>Contact</a>

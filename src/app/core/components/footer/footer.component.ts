@@ -9,8 +9,11 @@ import { Component, OnInit } from '@angular/core';
   </div>
   </footer>
   `,
-  styles: [
-  ]
+  styles: [`
+    .footer {
+      padding: 1rem 1.5rem 1rem;
+    }
+  `]
 })
 export class FooterComponent implements OnInit {
 
